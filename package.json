@@ -1,0 +1,13 @@
+{
+  "name": "hydraulic-simple-calc-repo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Simple hydraulic calculation MVP for water supply design, ready for GitHub Pages.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
