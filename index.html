@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>水理計算シンプルMVP</title>
+    <title>水理計算めっちゃ簡単</title>
     <meta
       name="description"
       content="給水装置・簡易水理計算のための静的Webアプリ。GitHub Pagesで公開可能。"
@@ -14,16 +14,7 @@
     <header class="page-header">
       <div class="container">
         <p class="eyebrow">Hydraulic Simple Calc MVP</p>
-        <h1>水理計算シンプルMVP</h1>
-        <p class="lead">
-          給水装置の概算に必要な「同時使用水量 → 摩擦損失 → 所要水頭 → 口径比較」を、
-          ブラウザだけで一通り回せるようにした静的Webアプリです。
-        </p>
-        <div class="chip-row">
-          <span class="chip">GitHub Pages 向け</span>
-          <span class="chip">依存関係なし</span>
-          <span class="chip">オフライン利用可</span>
-          <span class="chip warning">最終設計前提ではない</span>
+        <h1>水理計算めっちゃ簡単</h1>
         </div>
       </div>
     </header>
@@ -31,21 +22,9 @@
     <main class="container page-main">
       <section class="notice-grid">
         <article class="notice-card">
-          <h2>今回のMVP範囲</h2>
-          <p>
-            まずは単線・給水装置寄りの簡易計算に絞っています。管網解析、火災時計算、ポンプや受水槽は次段階です。
-          </p>
-        </article>
-        <article class="notice-card">
-          <h2>基準の扱い</h2>
+          <h2>基準はこれ</h2>
           <p>
             0.15 MPa / 0.74 MPa の判定、Weston と Hazen-Williams の切替、C=110 の既定値を内蔵しています。
-          </p>
-        </article>
-        <article class="notice-card">
-          <h2>使い方の流れ</h2>
-          <p>
-            まず同時使用水量を計算し、次に口径と延長から摩擦損失を計算し、その値を所要水頭・口径概算に流し込むのが基本です。
           </p>
         </article>
       </section>
@@ -324,7 +303,7 @@
       <section class="panel footer-panel">
         <div class="panel-header">
           <h2>メモ</h2>
-          <p>このMVPは、まず現場で判断の速い一次概算に寄せています。</p>
+          <p>この水理計算は、まず現場で判断の速い一次概算に寄せています。</p>
         </div>
         <ul class="notes-list">
           <li>同時使用水量の根拠式は PDF の重複記載がある部分に寄せて実装しています。</li>
